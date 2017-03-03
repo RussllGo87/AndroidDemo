@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+
+    <string name="title_activity_http_demo">OkHttpDemo</string>
+    <string name="title_activity_chart_demo">ChatDemo</string>
+    <string name="title_activity_anim_demo">AnimationDemo</string>
+    <string name="title_activity_view_cross_fade">ViewCrossFade</string>
+    <string name="title_activity_view_pager_transformer">ViewPagerTransformer</string>
+    <string name="title_activity_rx_basic_demo">Basic RxAndroid Demo</string>
+    <string name="lorem_ipsum">
+        Animations can add subtle visual cues that notify users about what\'s going on in your app and improve their mental model of your app\'s interface. Animations are especially useful when the screen changes state, such as when content loads or new actions become available. Animations can also add a polished look to your app, which gives your app a higher quality feel.
+
+Keep in mind though, that overusing animations or using them at the wrong time can be detrimental, such as when they cause delays. This training class shows you how to implement some common types of animations that can increase usability and add flair without annoying your users.
+        Crossfade animations (also know as dissolve) gradually fade out one UI component while simultaneously fading in another. This animation is useful for situations where you want to switch content or views in your app. Crossfades are very subtle and short but offer a fluid transition from one screen to the next. When you don\'t use them, however, transitions often feel abrupt or hurried.
+    </string>
+    <string name="description_image_1">description_image_1</string>
+    <string name="card_back_title">card_back_title</string>
+    <string name="card_back_description">card_back_description</string>
+
+    <string name="btn_view_pager_transformer">VPTransformer</string>
+    <string name="tv_view_cross_fade">ViewCrossFade</string>
+    <string name="tv_label_pa">Property Animation</string>
+    <string name="btn_pa_alpha">alpha</string>
+    <string name="btn_pa_scale">scale</string>
+    <string name="btn_pa_translate">translate</string>
+    <string name="btn_pa_rotate">rotate</string>
+    <string name="tv_label_view_animation">View Animation</string>
+    <string name="btn_va_alpha">alpha</string>
+    <string name="btn_va_scale">scale</string>
+    <string name="btn_va_translate">translate</string>
+    <string name="btn_va_rotate">rotate</string>
+    <string name="btn_http_demo">OkHttp</string>
+    <string name="btn_chart_demo">ChatView</string>
+    <string name="btn_anim_demo">Animation</string>
+    <string name="btn_rx_demo">RxAndroid</string>
+</resources>

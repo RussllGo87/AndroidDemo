@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_anim_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gong.android.demo.activities.AnimDemoActivity">
+
+    <LinearLayout android:id="@+id/ll_btn_ctrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_view_cross_fade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_view_cross_fade"/>
+
+        <Button
+            android:id="@+id/btn_view_pager_transformer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_view_pager_transformer"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_label_pa"/>
+
+    <LinearLayout android:id="@+id/ll_pa_demo"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_pa_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pa_alpha"/>
+
+        <Button
+            android:id="@+id/btn_pa_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pa_scale"/>
+
+        <Button
+            android:id="@+id/btn_pa_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pa_translate"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_pa_rotate"
+            android:layout_width="wrap_content"
+            android:text="@string/btn_pa_rotate"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_pa_demo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_label_view_animation"/>
+
+    <LinearLayout android:id="@+id/ll_va_demo"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_va_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_va_alpha"/>
+
+        <Button
+            android:id="@+id/btn_va_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_va_scale"/>
+
+        <Button
+            android:id="@+id/btn_va_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_va_translate"/>
+
+        <Button
+            android:id="@+id/btn_va_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_va_rotate"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_va_demo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
